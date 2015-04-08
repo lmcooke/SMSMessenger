@@ -76,7 +76,7 @@ public class MainPageController {
 			String toReturn = "+" + (new String(ca));
 			return toReturn;
 		} else {		
-			return "nope";
+			return "not a valid number";
 		}
 	}	
 
